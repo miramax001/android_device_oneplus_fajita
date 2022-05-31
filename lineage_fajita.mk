@@ -19,16 +19,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from fajita device
-$(call inherit-product, device/oneplus/oneplus6t/device.mk)
+$(call inherit-product, device/oneplus/fajita/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aospa/config/common_full_phone.mk)
 
-PRODUCT_NAME := aospa_oneplus6t
-PRODUCT_DEVICE := oneplus6t
+PRODUCT_NAME := aospa_fajita
+PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := ONEPLUS 6t
+PRODUCT_MODEL := ONEPLUS A6013
 
 PRODUCT_SYSTEM_NAME := OnePlus6T
 PRODUCT_SYSTEM_DEVICE := OnePlus6T
